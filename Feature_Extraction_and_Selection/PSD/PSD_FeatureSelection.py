@@ -2,8 +2,7 @@
 PSD Feature Selection and Model Sweep — all subjects.
 
 Two-stage pipeline per subject:
-  STAGE 1: for every (view, selector, classifier, k) combination (features
-           always standardized with StandardScaler), run 5-fold stratified
+  STAGE 1: for every (view, selector, classifier, k) combination, run 5-fold stratified
            CV -> composite(test accuracy, train/test gap) -> keep the top
            10 configurations.
   STAGE 2: for those top 10 configurations, run Leave-One-Out CV. Rows are
