@@ -7,8 +7,7 @@ window) and saves one feature array per subject.
 
 Instantaneous phase (via the Hilbert transform) is only physically
 meaningful for a narrowband signal, so band-pass filtering into
-theta/alpha/beta before computing the phase is a mandatory step of this
-method, not an optional design choice.
+theta/alpha/beta should be before computing the phase.
 
 Input  (per subject): data/processed/X{sid}_InnerSpeech_Task.npy, shape (n_trials, 29, n_samples)
 Output (per subject): features/PLV_Sub{sid}.npy, shape (n_trials, 3, n_channel_pairs)
