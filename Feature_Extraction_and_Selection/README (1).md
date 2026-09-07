@@ -76,8 +76,6 @@ feature array that could be saved and reused.
 
 ## Shared conventions across all four modalities
 
-- Feature scaling is fixed to `StandardScaler` throughout; it is not swept
-  as a hyperparameter.
 - Feature selection: ANOVA F-test and Mutual Information, with the number
   of selected features (`k`) swept from 5 to 100.
 - Classifiers: linear and RBF SVM, KNN, Logistic Regression, and LDA.
