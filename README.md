@@ -102,12 +102,6 @@ mne
 joblib
 ```
 
-## Feature scaling
-
-`StandardScaler` is applied throughout this project and is not swept as a
-hyperparameter.
-
-
 ## License
 
 Released under the MIT License — see `LICENSE`.
